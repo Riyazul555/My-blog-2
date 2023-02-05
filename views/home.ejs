@@ -1,0 +1,17 @@
+
+<%- include("partials/header"); -%>
+
+<h1>About Me</h1>
+<p> <%= startingContent %> </p>
+
+<h1> My Roots</h1>
+<p> <%= myselfContent %> </p>
+
+<h1>More about me</h1>
+<p> <%= things %> </p>
+
+<% posts.forEach(function(post){ %>
+  <%  console.log(post.title); %>
+<% }) %>
+
+<%- include("partials/footer"); -%>
